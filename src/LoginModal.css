@@ -1,0 +1,18 @@
+.login-modal {
+    position: absolute;
+    top: 194px;
+    right: 128px;
+    height: 488px;
+    width: 470px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1330px) {
+    .login-modal {
+      position: static;
+      margin: auto;
+      right: 0;
+    }
+    
+  }
