@@ -7,6 +7,22 @@
     background-color: white;
     border: 1px solid black;
 }
+.sign-up-modal {
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  width: 640px;
+  height: 500px;
+  left: 757px;
+  top: 188px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  }
+
+.login-modal form {
+  position: relative;
+}
 
 @media screen and (max-width: 1330px) {
     .login-modal {
@@ -14,5 +30,207 @@
       margin: auto;
       right: 0;
     }
-    
+    .sign-up-modal {
+      position: static;
+      height: 500px;
+      width: 640px;
+      background-color: white;
+      margin: auto;
+    }
   }
+.login-modal form * {
+  position: absolute;
+}
+.log-in {
+  top: 56px;
+  left: 30px;
+  font-size: 24px;
+}
+.or {
+  top: 64px;
+  left: 179px;
+  font-size: 18px;
+}
+.sign-up-button {
+  top: 64px;
+  left: 273px;
+  font-size: 18px;
+  background-color: inherit;
+  border: none;
+}
+.sign-up-button:hover{
+  text-decoration: underline;
+  text-decoration-color: #093FFD;
+}
+.log-in-input {
+  width: 421px;
+  height: 52px;
+  border-radius: 5px;
+  background-color: #CEEDFF;
+  font-size: 24px;
+}
+.email {
+  top: 139px;
+  left: 28px;
+}
+.password {
+  top: 229px;
+  left: 28px;
+}
+.checkbox {
+  top: 328px;
+  left: 30px;
+}
+.remember {
+  top: 328px;
+  left: 63px;
+}
+.log-in-button {
+  top: 322px;
+  left: 290px;
+  width: 159px;
+  height: 38px;
+  border-radius: 5px;
+  background-color: #093FFD;
+  color: white;
+  font-size: 24px;
+}
+.google-button {
+  top: 395px;
+  left: 57px;
+  height: 50px;
+  width: 373px;
+  border-radius: 25px;
+  background-color: #D2E4FE;
+  position: relative;
+  font-size: 18px;
+}
+.google-button img {
+ position: absolute;
+ top: 2px;
+ left: 7px;
+}
+
+.sign-up-form-logo {
+  font-family: 'Titan One', cursive;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  margin: 27px 48px;
+}
+
+.close-sign {
+  top: 0;
+  right: 0;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-right: 20px;
+  padding: 10px;
+}
+.close-sign:hover {
+  color: red;
+}
+.sign-up-form {
+  position: relative;
+}
+.sign-up-form * {
+  position: absolute;
+}
+.sign-up-form input {
+  border-style: none;
+  border-bottom: 1px solid black;
+  width: 376px;
+}
+.form-header{
+  top: 60px;
+  left: 50px;
+  font-size: 24px;
+}
+.sign-up-label input{
+  left: 170px;
+}
+#greeting {
+  top: 122px;
+  left: 50px;
+}
+#name, #lastname{
+  width: 180px;
+}
+#name {
+  top: 122px;
+  left: 165px;
+}
+#lastname {
+  top: 122px;
+  left: 416px;
+}
+
+#start-free,
+#resend-verification {
+  top: 426px;
+  left: 50px;
+}
+
+#start-business,
+#confirm-verification {
+  top: 426px;
+  left: 366px;
+}
+#company {
+  top: 182px;
+  left: 50px;
+}
+#department {
+  top: 233px;
+  left: 50px;
+}
+#email {
+  top: 285px;
+  left: 50px;
+}
+#password {
+  top: 336px;
+  left: 50px;
+}
+
+#confirm {
+  top: 387px;
+  left: 50px;
+}
+.sign-up-form select,
+.sign-up-form select option,
+.sign-up-form input,
+.sign-up-form button{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;    
+}
+.sign-up-form input:focus{
+    background-color: #E5E5E5;
+    outline-offset: 5px;
+    outline: #72e3ff solid 3px;
+}
+.sign-up-form select,
+.sign-up-form select option{
+  border: none;
+}
+.sign-up-form select:focus,
+.sign-up-form select option:focus{
+  outline: none;
+  border: none;
+}
+.sign-up-form-button{
+  height: 35px;
+  width: 230px;
+  border-radius: 5px;
+  background-color: #C4C4C4;
+  color: black;
+}
+.sign-up-form-button:hover{
+  background-color: #51BA5B;
+  color: white;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#resend-verification:hover{
+  background-color: rgb(228, 0, 0);
+}
